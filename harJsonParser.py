@@ -148,15 +148,16 @@ def createDownloadTree(domainsList, domains):
 				print nodeTuple
 			count+=1
 	return downloadTree
-createDownloadTree(domainsList,domains)
+# createDownloadTree(domainsList,domains)
 # print len(domainsList)
-# for domain in domainsList:
-# 	print domain
-# 	print domains[domain]['connections'][0]
-# 	print len(domains[domain]['connections'][0])
-# 	print domains[domain]['objectCount']
-# 	print domains[domain]['totalNewConnections']
-# 	print '\n'
+for domain in domainsList:
+	if(domain =="170.149.172.130"):
+		print domain
+		print domains[domain]['connections'][0]
+		print len(domains[domain]['connections'][0])
+		print domains[domain]['objectCount']
+		print domains[domain]['totalNewConnections']
+		print '\n'
 
 
 
