@@ -3,10 +3,10 @@ import subprocess
 import os
 import json
 import unicodedata
-harfile=raw_input()
-pcapFile=raw_input()
-# pcapFile='nytimes.pcap'
-# harfile='nytimes.har'
+# harfile=raw_input()
+# pcapFile=raw_input()
+pcapFile='nytimes.pcap'
+harfile='nytimes.har'
 harFile = open(harfile,"r")
 
 fileToString=""
@@ -87,7 +87,7 @@ for entry in entries:
 		ips.append(serverIpAddres)
 
 
-
+print object_types
 # making downlaod tree
 ipToConn={}
 domainToConn={}
@@ -180,5 +180,3 @@ json.dump(download_tree,open('download_tree.txt','w'))
 json.dump(object_tree,open('object_tree.txt','w'))
 json.dump(domains,open('domains_info.txt','w'))
 json.dump(object_types,open('types_info.txt','w'))
-
-print domains

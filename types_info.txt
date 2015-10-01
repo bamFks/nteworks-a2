@@ -1,0 +1,1 @@
+{"application/x-unknown-content-type": 6, "image/jpeg": 54, "text/html": 12, "image/svg+xml": 1, "application/x-shockwave-flash": 6, "image/png": 11, "text/json": 1, "video/x-flv": 1, "image/gif": 37, "application/javascript": 15, "application/x-javascript": 27, "text/javascript": 10, "application/json": 8, "text/css": 6, "text/plain": 1}
